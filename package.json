@@ -1,0 +1,21 @@
+{
+  "name": "pizza-maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx parcel src/*.html",
+    "fakedb": "npx json-server db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "parcel": "^2.13.3"
+  }
+}
